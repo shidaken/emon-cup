@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>emon杯ホームページ</title>
+    <style>
+        h1{
+            color:white;
+            background-color: green;
+        }
+        h2{
+            color:white;
+            background-color: green;
+        }
+        h3{
+            background:linear-gradient(to right, #00fff9, #ffffff);;
+        }
+        .change_color{
+            color:red;}
+        .underline{
+            text-decoration: underline;
+        }
+        body{
+            background-color: cream;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>emon杯ホームページ</h1>
+        <p>emon杯のホームページです。</p>
+        <h2>主催者から</h2>
+        <p>(ここに主催者からのメッセージを入力)</p>
+        <h2>部門一覧</h2>
+        <p>今回は合計nつの部門を開催いたします。</p>
+        <ul>
+            <li>ゲーム部門</li><li>〇〇部門</li><li>**部門</li></li>
+        </ul>
+        <h2>部門概要</h2>
+        <h3><ul><li>ゲーム部門</li></ul></h3>
+        <p>ゲーム部門は主に、<span class=underline>プログラミング力</span>を競う部門です。</p>
+    </body>
+</html>
